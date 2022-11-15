@@ -5,7 +5,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.select import Select
-from stu_info import *
+from settings import *
 
 options = Options()
 options.add_argument('--headless')

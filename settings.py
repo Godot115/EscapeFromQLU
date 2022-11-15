@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 # @Time    : 11/16/22 00:44
 # @Author  : godot
-# @FileName: stu_info.py
+# @FileName: settings.py
 # @Project : escapeFromQLU
 # @Software: PyCharm
 
 
-stu_no = "111111111"  # 学号
-os_password = "129dyug3z@"  # 一网通密码
+stu_no = "111111"  # 学号
+os_password = "asds@d#sad&7"  # 一网通密码
 
 mentor_name_Pinyin = "wangyinglong"  # 导师姓名拼音
 mentor_rank = int("1")  # 请假页面中输入导师姓名拼音后，导师在搜索结果列表中的排名

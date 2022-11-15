@@ -59,7 +59,7 @@ unzip main.zip
 
 ~~~Bash
 #将信息替换为使用者信息
-vim EscapeFromQLU-main/stu_info.py
+vim EscapeFromQLU-main/settings.py
 #执行脚本
 python3 EscapeFromQLU-main/main.py
 ~~~
