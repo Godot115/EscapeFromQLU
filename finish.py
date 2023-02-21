@@ -17,8 +17,8 @@ from settings import *
 user_agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
 language = "zh-CN"
 options = Options()
-# options.add_argument('--headless')
-# options.add_argument('--disable-gpu')
+options.add_argument('--headless')
+options.add_argument('--disable-gpu')
 options.add_argument(f'user-agent={user_agent}')
 options.add_argument(f'lang={language}')
 options.add_argument("disable-blink-features=AutomationControlled")
